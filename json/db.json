@@ -1,0 +1,91 @@
+{
+    "destinations": [
+        {
+            "id": 1,
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777374685/Machu_Picchu__Peru__2018_z5k839.jpg",
+            "name": "Machu Picchu, misterio Inca",
+            "country": "Perú",
+            "continent": "América",
+            "description": "Descubre su historia, arquitectura y belleza natural a través de sus ruinas y sus paisajes."
+        },
+        {
+            "id": 2,
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777374676/Paris_erahq4.jpg",
+            "name": "Paris, ciudad de la luz",
+            "country": "Francia",
+            "continent": "Europa",
+            "description": "La ciudad de la luz, llena de arte, cultura y romance. Visita la Torre Eiffel y más atractivos."
+
+        },
+                {
+            "id": 3,
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777376475/Santorini_svi0zr.jpg",
+            "name": "Santorini, la isla de Creta",
+            "country": "Grecia",
+            "continent": "Europa",
+            "description": "Esta hermosa isla es conocida por sus paisajes deslumbrantes y sus casas blancas."     
+        },
+                {
+            "id": 4,
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378019/Sevilla_mdzjee.jpg",
+            "name": "Sevilla, ciudad de la pasión",
+            "country": "España",
+            "continent": "Europa",
+            "description": "La histórica ciudad de Sevilla, conocida por su impresionante arquitectura."
+        },
+
+        {
+            "id": 5,
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378028/Sakura_tokio_ccm1qp.jpg",
+            "name": "Sakura, la flor de Tokio",
+            "country": "Japón",
+            "continent": "Asia",
+            "description": "La ciudad de Tokio, conocida por su mezcla de tradición y modernidad. "
+        },
+
+        {
+            "id": 6,
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378112/Florencia_lzzrb8.jpg",
+            "name": "Florencia, ciudad de la belleza",
+            "country": "Italia",
+            "continent": "Europa",
+            "description": "La encantadora ciudad de Florencia, conocida por su historia, arte y arquitectura."
+        },
+
+        {
+            "id": 7,
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378222/Viena_Austria_eopfmh.avif",
+            "name": "Viena, ciudad de la música",
+            "country": "Austria",
+            "continent": "Europa",
+            "description": "La vibrante ciudad de Viena, conocida por su rica historia musical y su arquitectura barroca."
+        },
+
+        {
+            "id": 8,
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378299/Praga_Rep%C3%BAblica_Checa_wz2abf.jpg",
+            "name": "Praga, ciudad de los castillos",
+            "country": "República Checa",
+            "continent": "Europa",
+            "description": "La encantadora ciudad de Praga, conocida por sus hermosos castillos y sus calles medievales."
+        },
+
+        {
+            "id": 9,
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378391/Londres_rjuig0.jpg",
+            "name": "Londres, ciudad del río",
+            "country": "Reino Unido",
+            "continent": "Europa",
+            "description": "La vibrante ciudad de Londres, conocida por su cultura y landmarks."
+        },
+
+        {
+            "id": 10,
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378515/muralla2_wcgu06.jpg",
+            "name": "Muralla China",
+            "country": "China",
+            "continent": "Asia",
+            "description": "La imponente muralla de China, símbolo de la historia milenaria del país."
+        }
+    ]
+}

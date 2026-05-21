@@ -1,0 +1,14 @@
+{
+    "name": "viajes-destinos",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "start": "json-server --watch json/db.json --port 3000"
+    },
+    "dependencies": {
+        "json-server": "^1.0.0-beta.15"
+    },
+    "author": "",
+    "license": "ISC"
+}
