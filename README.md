@@ -26,20 +26,26 @@ The visual design follows a clean and editorial style inspired by travel magazin
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Homepage
-![Homepage](./screenshots/homepage.png)
+![Homepage](https://github.com/user-attachments/assets/4181e576-a2bb-4400-b254-cf32160be510)
+
+## Subscription & Modal
+![Subscription](https://github.com/user-attachments/assets/4a65345b-c4e3-4e24-a7a0-c848e5d904a7)
 
 ### Destination Cards
-![Cards](./screenshots/cards.png)
+![Cards](https://github.com/user-attachments/assets/30d16cb1-16cf-4aed-8c04-6a0b9dfc8903)
 
 ### Search Active
-![Search](./screenshots/search.png)
+![Search](https://github.com/user-attachments/assets/bdec7083-3fa8-4bca-9cbb-25154e58ac32)
+
+### Footer
+![Footer](https://github.com/user-attachments/assets/6066e918-079e-4c9d-ad8f-f4eb524b77fe)
 
 ---
 
-## ⚙️ How to run the project
+## How to run the project
 
 ### Requirements
 - [Node.js](https://nodejs.org) v22 or higher
@@ -72,13 +78,13 @@ http://127.0.0.1:5500/index.html
 
 ---
 
-## 🔗 Live Demo
+## Live Demo
 
 🚀 [View on Vercel](#) ← *(link coming soon)*
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 Made with ❤️ by **Melycode**  
 [GitHub](https://github.com/Melycode) · [LinkedIn](https://www.linkedin.com/in/melissafguerreroc/)
