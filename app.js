@@ -82,7 +82,6 @@ fetchTravelsJson().then(travels => {
         `;
     });
 
-    initPanelToggles();
     setupFilterEvents();
     setupSearchEvent();
 });
