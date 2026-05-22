@@ -50,7 +50,7 @@ async function fetchTravelsJson() {
 }
 
 fetchTravelsJson().then(travels => {
-    allTravels = travels;
+    allTravels = travels.destinations;
     const destinationsSection = document.getElementById('travelSection');
 
     travels.destinations.forEach(destiny => {
@@ -67,24 +67,24 @@ fetchTravelsJson().then(travels => {
             <div class="card-img-wrapper">
                 <img src="${poster}" class="card-img-top" alt="${name}">
             </div>
-
             <div class="card-body">
                 <div>
                     <div class="d-flex justify-content-between align-items-center mb-1">
                         <span class="card-country-badge">${country}</span>
                         <span class="card-continent-badge">${continent}</span>
                     </div>
-
                     <h4 class="card-title">${name}</h4>
                     <p class="card-text">${description}</p>
                 </div>
-
                 <a href="#" class="btn-card-more">Ver más</a>
-                
             </div>
         </div>
         `;
     });
+
+    initPanelToggles();
+    setupFilterEvents();
+    setupSearchEvent();
 });
 
 
@@ -230,6 +230,4 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     initSubscribeModal();
-    setupFilterEvents();
-    setupSearchEvent();
 });
