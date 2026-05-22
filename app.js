@@ -1,4 +1,4 @@
-const requestURL = 'http://localhost:3000/destinations';
+const requestURL = './json/db.json';
 
 let allTravels = [];
 
@@ -20,7 +20,7 @@ function initPanelToggles() {
 function renderCards(travels) {
     const destinationsSection = document.getElementById('travelSection');
     destinationsSection.innerHTML = "";
-    travels.forEach(destiny => {
+    travels.destinations.forEach(destiny => {
         const { poster, name, country, continent, description } = destiny;
         destinationsSection.innerHTML += `
         <div class="card">
