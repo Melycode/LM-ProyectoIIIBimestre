@@ -53,7 +53,7 @@ fetchTravelsJson().then(travels => {
     allTravels = travels;
     const destinationsSection = document.getElementById('travelSection');
 
-    travels.forEach(destiny => {
+    travels.destinations.forEach(destiny => {
         const {
             poster,
             name,
