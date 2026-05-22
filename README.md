@@ -9,6 +9,11 @@ A travel blog built with HTML, CSS, JavaScript, Bootstrap and JSON Server. Viaje
 **Viaje Soñado** (Dream Trip) is a travel blog that provides tips and detailed information about the best destinations you should visit around the world. It showcases 10 international destinations displayed as dynamic Bootstrap cards, loaded from a local JSON Server API, helping travelers discover and plan their next adventure.
 
 ---
+## Live Demo
+
+https://viaje-sonado.vercel.app/
+
+---
 
 ##  Design
 
@@ -76,13 +81,11 @@ http://127.0.0.1:5500/index.html
 
 > JSON Server runs on `http://localhost:3000/destinations`
 
----
-
-## Live Demo
-
-🚀 [View on Vercel](#) ← *(link coming soon)*
+**Note:** Make sure both the JSON server is running in your terminal AND the Live Server is active in your browser for the application to display the data correctly.
 
 ---
+
+
 
 ## Author
 
