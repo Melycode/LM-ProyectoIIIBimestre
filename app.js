@@ -20,7 +20,7 @@ function initPanelToggles() {
 function renderCards(travels) {
     const destinationsSection = document.getElementById('travelSection');
     destinationsSection.innerHTML = "";
-    travels.destinations.forEach(destiny => {
+    travels.forEach(destiny => {
         const { poster, name, country, continent, description } = destiny;
         destinationsSection.innerHTML += `
         <div class="card">
@@ -50,7 +50,7 @@ async function fetchTravelsJson() {
 }
 
 fetchTravelsJson().then(travels => {
-    allTravels = travels;
+    allTravels = travels.destinations;
     const destinationsSection = document.getElementById('travelSection');
 
     travels.destinations.forEach(destiny => {
