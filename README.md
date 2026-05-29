@@ -61,7 +61,7 @@ The visual design follows a clean and editorial style inspired by travel magazin
 1. Clone the repository:
 ```bash
 git clone https://github.com/Melycode/travel-blog-web.git
-cd LM-ProyectoIIIBimestre
+cd travel-blog-web
 ```
 
 2. Install dependencies:
