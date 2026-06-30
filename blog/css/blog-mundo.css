@@ -1,0 +1,53 @@
+
+.city-block {
+    border-bottom: 1px solid rgb(213, 213, 213);
+}
+
+.city-block:nth-child(even) {
+    background: #f6f7f7;
+    padding: 30px;
+    border-radius: 6px;
+    border-bottom: 0.8px solid #f8f6f6;
+}
+
+
+.city-number-badge {
+    background: #ffffff;
+    color: #003B5C;
+    border: 2px solid #003B5C;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+.city-name {
+    color: #1a3a4a;
+}
+
+
+.city-divider {
+    background: linear-gradient(90deg, #d4a017, #5BA4B1);
+}
+
+
+.tip-row.mustsee {
+    background: white; 
+    color: #1a3a4a;
+    border: 2px solid #003B5C;
+}
+
+
+.tip-row.practical {
+    background: #1a3a4a;
+    color: #ffffff;
+}
+
+
+.esp-hero-tag {
+    color: rgb(158, 158, 158);
+}
+
+
+.city-subtitle {
+    color: rgb(158, 158, 158);
+}
+

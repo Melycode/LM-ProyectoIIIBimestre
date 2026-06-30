@@ -4,33 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://res.cloudinary.com/dfhwxnhsl/image/upload/v1779400778/billete-de-avion_qzss7a.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://res.cloudinary.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    </noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    </noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </noscript>
     <link rel="stylesheet" href="styles.css">
     <title>Viaje Soñado</title>
+    <meta name="description" content="Explora Viaje Soñado, tu catálogo interactivo de destinos turísticos. Planifica tus próximas vacaciones a Praga, Santorini, Machu Picchu y más.">
 </head>
 <body>
 <nav class="navbar" id="mainNavbar">
     <div class="navbar-standard-content">
         <ul class="nav-links">
-            <li><a href="#">TOP 10 ESPAÑA</a></li>
-            <li><a href="#">TOP 10 EUROPA</a></li>
-            <li><a href="#">TOP 10 MUNDO</a></li>
-            <li><a href="#">NOTICIAS</a></li>
+            <li><a href="blog/top10-espana.html">TOP 10 ESPAÑA</a></li>
+            <li><a href="blog/top10-europa.html">TOP 10 EUROPA</a></li>
+            <li><a href="blog/top10-mundo.html">TOP 10 MUNDO</a></li>
+            <li class="search-icon-li">
+                <a href="#" class="search-icon" id="triggerSearch" aria-label="Buscar destinos">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </a>
+            </li>
         </ul>
-
-        <li class="search-icon-li">
-            <a href="#" class="search-icon" id="triggerSearch">
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                </svg>
-            </a>
-        </li>
-
         <div class="navbar-socials">
             <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -39,12 +50,10 @@
         </div>
     </div>
 
-    
-
     <div class="navbar-search-overlay">
         <div class="search-container-inner">
-            <input type="text" placeholder="Buscar..." id="main-search-input">
-            <button class="close-search-btn" id="closeSearch">
+            <input type="text" placeholder="Buscar..." id="main-search-input" aria-label="Término de búsqueda">
+            <button class="close-search-btn" id="closeSearch" aria-label="Cerrar búsqueda">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                 </svg>
@@ -58,145 +67,132 @@
         <span class="blog-subtitle">INSPÍRATE Y EMBÁRCATE</span>
         <h1 class="blog-brand-title">VIAJE SOÑADO</h1>
         <p class="blog-description-text">TU GUÍA FAVORITA PARA DAR VIDA A TU PRÓXIMA AVENTURA</p>
-        
     </div>
 </section>
 
+<section class="hero-container">
+    <div class="panel">
+        <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_600/v1777374676/Paris_erahq4.jpg" alt="Paris" />
+        <div class="panel-label">
+            <span class="panel-icon">✈</span>
+            <span class="panel-name">Paris · Francia</span>
+        </div>
+    </div>
+    <div class="panel">
+        <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_600/v1777376475/Santorini_svi0zr.jpg" alt="Santorini" />
+        <div class="panel-label">
+            <span class="panel-icon">✈</span>
+            <span class="panel-name">Santorini · Grecia</span>
+        </div>
+    </div>
+    <div class="panel active">
+        <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_600/v1777374685/Machu_Picchu__Peru__2018_z5k839.jpg" fetchpriority="high" alt="Machu Picchu" />
+        <div class="panel-label">
+            <span class="panel-icon">✈</span>
+            <span class="panel-name">Machu Picchu · Perú</span>
+        </div>
+    </div>
+    <div class="panel">
+        <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_650/v1777378112/Florencia_lzzrb8.jpg" alt="Florencia" />
+        <div class="panel-label">
+            <span class="panel-icon">✈</span>
+            <span class="panel-name">Florencia · Italia</span>
+        </div>
+    </div>
+    <div class="panel">
+        <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_600/v1777378028/Sakura_tokio_ccm1qp.jpg" alt="Tokio" />
+        <div class="panel-label">
+            <span class="panel-icon">✈</span>
+            <span class="panel-name">Tokio · Japón</span>
+        </div>
+    </div>
+</section>
 
-    <section class="hero-container">
-        <div class="panel">
-            <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777374676/Paris_erahq4.jpg" alt="Paris" />
-            <div class="panel-label">
-                <span class="panel-icon">✈</span>
-                <span class="panel-name">Paris · Francia</span>
-            </div>
-    
-        </div>
-        <div class="panel">
-            <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777376475/Santorini_svi0zr.jpg" alt="Santorini" />
-            <div class="panel-label">
-                <span class="panel-icon">✈</span>
-                <span class="panel-name">Santorini · Grecia</span>
-            </div>
-            
-        </div>
-        <div class="panel active">
-            <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777374685/Machu_Picchu__Peru__2018_z5k839.jpg" alt="Machu Picchu" />
-            <div class="panel-label">
-                <span class="panel-icon">✈</span>
-                <span class="panel-name">Machu Picchu · Perú</span>
-            </div>
-            
-        </div>
-        <div class="panel">
-            <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378112/Florencia_lzzrb8.jpg" alt="Florencia" />
-            <div class="panel-label">
-                <span class="panel-icon">✈</span>
-                <span class="panel-name">Florencia · Italia</span>
-            </div>
-            
-        </div>
-        <div class="panel">
-            <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378028/Sakura_tokio_ccm1qp.jpg" alt="Tokio" />
-            <div class="panel-label">
-                <span class="panel-icon">✈</span>
-                <span class="panel-name">Tokio · Japón</span>
-            </div>
-            
-        </div>
-    </section>
-
-   <section class="blog-intro-section-main">
+<section class="blog-intro-section-main">
     <div class="blog-intro-header text-center-main">
         <span class="section-icon">✈</span>
         <h2 class="blog-title">TOP 10 LUGARES DEL MUNDO</h2>
     </div>
-    </section>
+</section>
 
-    <div class="menu-destinos-container">
-            <ul class="menu-destinos">
-                <li><a href="#">EUROPA <span class="arrow">▾</span></a></li>
-                <li><a href="#">ASIA <span class="arrow">▾</span></a></li>
-                <li><a href="#">AMÉRICA <span class="arrow">▾</span></a></li>
-                <li><a href="#">TODOS <span class="arrow">▾</span></a></li>
-            </ul>
+<div class="menu-destinos-container">
+    <ul class="menu-destinos">
+        <li><a href="#">EUROPA <span class="arrow">▾</span></a></li>
+        <li><a href="#">ASIA <span class="arrow">▾</span></a></li>
+        <li><a href="#">AMÉRICA <span class="arrow">▾</span></a></li>
+        <li><a href="#">TODOS <span class="arrow">▾</span></a></li>
+    </ul>
+</div>
+
+<main class="main-content">
+    <div id="travelSection" class="cardDestinations"></div>
+    <div id="detailView" style="display: none;"></div>
+</main>
+
+<section id="blogSection" style="display:none;"></section>
+<section id="blogArticleSection" style="display:none;"></section>
+
+<footer class="main-footer">
+    <div class="footer-top">
+        <div class="footer-col">
+            <h3>CONTÁCTANOS</h3>
+            <p> <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_40/v1779217522/pngtree-three-dimensional-white-phone-icon-free-pictures-png-image_2953488-removebg-preview_jmldtr.png" alt="Teléfono" class="footer-phone-icon" width="20" height="20" loading="lazy"> +34 323-913-468</p>
+            <p><img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_40/v1779216778/correo-removebg-preview_nojb8o.png" alt="Correo" class="footer-email-icon" width="20" height="20" loading="lazy"> viajesoñado@gmail.com</p>
         </div>
-
-    <main class="main-content">
-        <div id="travelSection" class="cardDestinations">
-        </div>
-    </main>
-
-    <footer class="main-footer">
-        <div class="footer-top">
-            <div class="footer-col">
-                <h3>CONTÁCTANOS</h3>
-                <p> <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/v1779217522/pngtree-three-dimensional-white-phone-icon-free-pictures-png-image_2953488-removebg-preview_jmldtr.png" alt="Teléfono" class="footer-phone-icon"> +34 323-913-468</p>
-                <p><img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/v1779216778/correo-removebg-preview_nojb8o.png" alt="Correo" class="footer-email-icon"> viajesoñado@gmail.com</p>
+        <div class="footer-col">
+            <h3>NOTICIAS</h3>
+            <div class="news-item">
+                <a href="https://viajes.nationalgeographic.com.es/a/ni-aduanas-ni-pasaporte-biblioteca-donde-linea-suelo-hace-frontera-entre-dos-paises_25231" target="_blank" rel="noopener noreferrer">La biblioteca que hace de frontera entre dos países</a>
+                <small>Jun 16, 2026</small>
             </div>
-            <div class="footer-col">
-                <h3>NOTICIAS</h3>
-                <div class="news-item">
-                    <a href="#">Los 5 mejores lugares para visitar</a>
-                    <small>May 04, 2026</small>
-                </div>
-                <div class="news-item">
-                    <a href="#">Top 10 Hoteles</a>
-                    <small>May 04, 2026</small>
-                </div>
-            </div>
-            <div class="footer-col">
-                <h3>LINKS</h3>
-                <div class="quick-links-grid">
-                    <ul>
-                        <li><a href="#">Acerca de nosotros</a></li>
-                        <li><a href="#">Galería</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
+            <div class="news-item">
+                <a href="https://viajes.nationalgeographic.com.es/a/pueblo-gallego-donde-cada-10-habitantes-es-cabo-verde_25229" target="_blank" rel="noopener noreferrer">El pueblo gallego considerado una isla de Cabo Verde</a>
+                <small>Jun 16, 2026</small>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>©2026 Viaje Soñado</p>
-            <p> by Melycode</p>
-            <div class="social-icons">
+        <div class="footer-col">
+            <h3>LINKS</h3>
+            <div class="quick-links-grid">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Viaje Soñado</p>
+        <p> by Melycode</p>
+        <div class="social-icons">
             <a href="https://github.com/Melycode" target="_blank" rel="noopener noreferrer">
-                <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777579119/Captura_de_pantalla_2026-04-30_215657-removebg-preview_sanbuk.png" alt="Github">
+                <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_40/v1777579119/Captura_de_pantalla_2026-04-30_215657-removebg-preview_sanbuk.png" alt="Github" width="24" height="24" loading="lazy">
             </a>
             <a href="https://www.linkedin.com/in/melissafguerreroc/" target="_blank" rel="noopener noreferrer">
-                <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777579516/Captura_de_pantalla_2026-04-30_220424-removebg-preview_ehrpub.png" alt="Linkedin">
+                <img src="https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_40/v1777579516/Captura_de_pantalla_2026-04-30_220424-removebg-preview_ehrpub.png" alt="Linkedin" width="24" height="24" loading="lazy">
             </a>
-            </div>
-    </footer>
+        </div>
+    </div>
+</footer>
 
-
-
-
-    <div id="subscribeModal" class="modal">
+<div id="subscribeModal" class="modal">
     <div class="modal-content">
         <span class="close-modal" id="closeSubscribeModal">&times;</span>
-        
         <h2 class="modal-title">¡Únete a Viaje Soñado!</h2>
         
         <div id="modalFormBlock">
             <p class="modal-description">Recibe noticias y tips de viaje directamente en tu bandeja de entrada.</p>
-            <input type="email" id="subscribeEmail" class="modal-input" placeholder="Tu correo electrónico">
+            <input type="email" id="subscribeEmail" class="modal-input" placeholder="Tu correo electrónico" aria-label="Correo electrónico para suscripción">
             <button id="btnConfirmSubscribe" class="btn-checkout-style">CONFIRMAR</button>
-        </div> <div id="subscribeSuccess" class="success-container">
+        </div> 
+        <div id="subscribeSuccess" class="success-container">
             <i class="fa-solid fa-circle-check success-icon"></i>
             <p class="success-text">¡Gracias por suscribirte!</p>
         </div>
     </div>
 </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        if (typeof initPanelToggles === "function") {
-            initPanelToggles();
-        }
-    });
-</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+<script src="app.js" defer></script>
+<script src="blog.js" defer></script>
 </body>
 </html>

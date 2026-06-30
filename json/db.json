@@ -2,90 +2,337 @@
     "destinations": [
         {
             "id": 1,
-            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777374685/Machu_Picchu__Peru__2018_z5k839.jpg",
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1777374685/Machu_Picchu__Peru__2018_z5k839.jpg",
             "name": "Machu Picchu, misterio Inca",
             "country": "Perú",
             "continent": "América",
-            "description": "Descubre su historia, arquitectura y belleza natural a través de sus ruinas y sus paisajes."
+            "description": "Descubre su historia, arquitectura y belleza natural a través de sus ruinas y sus paisajes.",
+            "detail": {
+            "heroImage": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1780513701/Machupicchu_Portada__s0iixw.jpg",
+            "longDescription": "Machu Picchu es una ciudadela inca situada en las alturas de las montañas de los Andes en Perú y es considerada una de las siete maravillas del mundo.",
+            "highlights": [
+                { "name": "Intihuatana", "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1780522280/portada-intihuatana_i80zvp.jpg" },
+                { "name": "Templo del Sol", "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1780514662/templo-sol-machu-picchu-1_hyml8t.jpg" },
+                { "name": "Puerta del Sol", "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1780522200/puerta_del_sol_zc5mim.jpg" },
+                { "name": "Templo de la luna", "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1780594605/templo-luna-turista_s8nkui.jpg" },
+                { "name": "Camino Inca", "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1780593844/intipata-inca-trail_zdhrhw.jpg" }]
+            
+            }
         },
+
+
         {
             "id": 2,
-            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777374676/Paris_erahq4.jpg",
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1777374676/Paris_erahq4.jpg",
             "name": "Paris, ciudad de la luz",
             "country": "Francia",
             "continent": "Europa",
-            "description": "La ciudad de la luz, llena de arte, cultura y romance. Visita la Torre Eiffel y más atractivos."
+            "description": "La ciudad de la luz, llena de arte, cultura y romance. Visita la Torre Eiffel y más atractivos.",
+            "detail": {
+            "heroImage": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781628623/paris_hmgsms.avif",
+            "longDescription": "París es la capital de Francia y es reconocida por su arquitectura del siglo XIX y sus icónicos monumentos. Una ciudad donde los paseos junto al Sena y sus cafés revelan la esencia del arte y la elegancia europea.",
+            "highlights": [
+                { 
+                    "name": "Museo del Louvre", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781628494/museo-louvre-1072536_ssodsy.jpg" 
+                },
+                { 
+                    "name": "Río Sena", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781628532/rio_sena_6986_orig_fslavk.jpg" 
+                },
+                { 
+                    "name": "Catedral de Notre Dame", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781628461/catedral-notre-dame-m_t58dyw.avif" 
+                },
+                { 
+                    "name": "Palacio de Versalles", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781628357/Palacio-de-Versalles_ht0n4u.jpg" 
+                }
+            ]
+        }
 
         },
                 {
             "id": 3,
-            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777376475/Santorini_svi0zr.jpg",
-            "name": "Santorini, la isla de Creta",
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1777376475/Santorini_svi0zr.jpg",
+            "name": "Santorini, la joya del Egeo",
             "country": "Grecia",
             "continent": "Europa",
-            "description": "Esta hermosa isla es conocida por sus paisajes deslumbrantes y sus casas blancas."     
+            "description": "Esta hermosa isla es conocida por sus paisajes deslumbrantes y sus casas blancas.",
+            "detail": {
+            "heroImage": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781691579/Santorini_d18fcr.jpg",
+            "longDescription": "Santorini es una isla volcánica en el mar Egeo, famosa por sus impresionantes vistas, sus casas blancas y sus puestas de sol espectaculares. Es un destino popular para los amantes de la fotografía y el romance.",
+            "highlights": [   
+                { 
+                    "name": "Fira", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781695322/fira-santorini-greece--opt_xggklt.jpg" 
+                },
+                
+                { 
+                    "name": "Oia", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_800/v1781695946/oia_to1kbc.jpg" 
+                },
+                { 
+                    "name": "Pyrgos", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781695314/pyrgos_mls3f1.jpg" 
+                },
+                { 
+                    "name": "Playa Roja", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781694099/Playa_Roja_mcfpmg.avif" 
+                },
+                { 
+                    "name": "Sitio arqueológico de Akrotiri", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781696115/Akrotiri_q9oaqm.jpg" 
+                }
+                
+            ]
+        }          
+            
         },
                 {
             "id": 4,
-            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378019/Sevilla_mdzjee.jpg",
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1777378019/Sevilla_mdzjee.jpg",
             "name": "Sevilla, ciudad de la pasión",
             "country": "España",
             "continent": "Europa",
-            "description": "La histórica ciudad de Sevilla, conocida por su impresionante arquitectura."
+            "description": "La histórica ciudad de Sevilla, conocida por su impresionante arquitectura.",
+            "detail": {
+            "heroImage": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781697540/PlazaEspa%C3%B1a_general_c8toue.jpg",
+            "longDescription": "Sevilla es una ciudad que enamora a primera vista. Un destino donde el aroma a azahar de sus calles, la fuerza del flamenco y su impresionante legado monumental se fusionana la orilla del Guadalquivir.",
+            "highlights": [   
+                { 
+                    "name": "La Giralda", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781697550/Torre-Giralda-Sevilla-Espana_ma3vhq.webp" 
+                },
+                
+                { 
+                    "name": "Real Alcázar", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781697535/Real_alcazar_cdhtqj.jpg" 
+                },
+                { 
+                    "name": "Torre del Oro", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781700738/Torre-del-Oro-Sevilla_bxoncx.jpg" 
+                },
+                { 
+                    "name": "Puente de Triana", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781701414/puentetriana_jhydhi.jpg" 
+                },
+                { 
+                    "name": "Las Setas", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781700677/setas-sevilla1_qmzvsm.jpg" 
+                }
+                
+            ]
+        }          
         },
 
         {
             "id": 5,
-            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378028/Sakura_tokio_ccm1qp.jpg",
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1777378028/Sakura_tokio_ccm1qp.jpg",
             "name": "Sakura, la flor de Tokio",
             "country": "Japón",
             "continent": "Asia",
-            "description": "La ciudad de Tokio, conocida por su mezcla de tradición y modernidad. "
+            "description": "La ciudad de Tokio, conocida por su mezcla de tradición y modernidad. ",
+            "detail": {
+            "heroImage": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781709141/tokio_xz39t6.webp",
+            "longDescription": "Tokio es una ciudad que enamora al fusionar tradición y vanguardia. Durante la primavera, la floración del Sakura viste de rosa tanto sus templos ancestrales como los rascacielos más modernos del mundo.",
+            "highlights": [  
+                { 
+                    "name": "Palacio Imperial", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781709997/palacio-imperial_dmtune.jpg" 
+                },
+            
+                { 
+                    "name": "Parque Yoyogi", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781702782/Parque_hxalwt.jpg" 
+                },
+                
+                { 
+                    "name": "Jardín Rikugien", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781702900/jardin-rikugien-tokio_u8kroi.jpg" 
+                },
+                { 
+                    "name": "Parque Shiba", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781702908/Shiba_zcba5p.jpg" 
+                },
+                { 
+                    "name": "Parque Ueno", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781710200/Ueno-Benten-do-Shrine_kzg7bs.jpg" 
+                }
+                
+            ]
+        }          
         },
 
         {
             "id": 6,
-            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378112/Florencia_lzzrb8.jpg",
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1777378112/Florencia_lzzrb8.jpg",
             "name": "Florencia, ciudad de la belleza",
             "country": "Italia",
             "continent": "Europa",
-            "description": "La encantadora ciudad de Florencia, conocida por su historia, arte y arquitectura."
+            "description": "La encantadora ciudad de Florencia, conocida por su historia, arte y arquitectura.",
+            "detail": {
+            "heroImage": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781720676/Florencia_ysbmov.jpg",
+            "longDescription": "Florencia es considerada la cuna del Renacimiento. Sus calles están llenas de arte, historia y arquitectura, con palacios, plazas y museos que conservan algunas de las obras más importantes del mundo.",
+            "highlights": [   
+                { 
+                    "name": "Catedral de Santa María del Fiore", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781721338/santa-maria-fiore-catedral_a3muak.jpg" 
+                },
+                
+                { 
+                    "name": "Palacio Vecchio ", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781717965/Palazzo_vecchio_gdjnar.jpg" 
+                },
+                { 
+                    "name": "Puente Veccio", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781720214/ponte-vecchio_bwvufy.jpg" 
+                },
+                { 
+                    "name": "Galería Uffizi", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781720903/Destinazioni_uffizi2_trl7rb.jpg" 
+                }
+                
+            ]
+        }          
         },
 
         {
             "id": 7,
-            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378222/Viena_Austria_eopfmh.avif",
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1777378222/Viena_Austria_eopfmh.avif",
             "name": "Viena, ciudad de la música",
             "country": "Austria",
             "continent": "Europa",
-            "description": "La vibrante ciudad de Viena, conocida por su rica historia musical y su arquitectura barroca."
+            "description": "La vibrante ciudad de Viena, conocida por su rica historia musical y su arquitectura barroca.",
+            "detail": {
+            "heroImage": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781722755/que-ver-en-viena-1200x836_syssdb.jpg",
+            "longDescription": "Viena es una ciudad elegante llena de historia, arte y cultura. Conocida como la capital de la música clásica, destaca por sus palacios imperiales, su arquitectura barroca y sus hermosas avenidas.",
+            "highlights": [   
+                { 
+                    "name": "Palacio de Schönbrunn", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781722075/palacio-schonbrunn_erseok.jpg" 
+                },
+                
+                { 
+                    "name": "Palacio Belvedere", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781722587/Alto-Belvedere_lckaqa.jpg" 
+                },
+                { 
+                    "name": "Catedral de San Esteban", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781722270/Catedral_cripu6.jpg" 
+                }
+                
+                
+            ]
+        }          
         },
 
         {
             "id": 8,
-            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378299/Praga_Rep%C3%BAblica_Checa_wz2abf.jpg",
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_850/v1777378299/Praga_Rep%C3%BAblica_Checa_wz2abf.jpg",
             "name": "Praga, ciudad de los castillos",
             "country": "República Checa",
             "continent": "Europa",
-            "description": "La encantadora ciudad de Praga, conocida por sus hermosos castillos y sus calles medievales."
+            "description": "La encantadora ciudad de Praga, conocida por sus hermosos castillos y sus calles medievales.",
+            "detail": {
+            "heroImage": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781723644/puente-carlos-vistas_c022w9.jpg",
+            "longDescription": "Praga es una ciudad europea llena de historia, famosa por sus castillos, arquitectura medieval y calles con encanto. Sus puentes, plazas y edificios históricos crean una de las postales más mágicas de Europa.",
+            "highlights": [   
+                { 
+                    "name": "Castillo de Praga", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781723824/Castillo_de_Praga_gipsgc.jpg" 
+                },
+                
+                { 
+                    "name": "Vyšehrad", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781724285/Visegra_j516x1.jpg" 
+                },
+                { 
+                    "name": "Reloj Astronómico", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781723512/orologio-astronomico-praga_osvdk4.jpg" 
+                },
+                { 
+                    "name": "Puente de Carlos", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781724131/PUente_Carlos_btrsmt.webp" 
+                }
+                
+            ]
+        }          
         },
 
         {
             "id": 9,
-            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378391/Londres_rjuig0.jpg",
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1777378391/Londres_rjuig0.jpg",
             "name": "Londres, ciudad del río",
             "country": "Reino Unido",
             "continent": "Europa",
-            "description": "La vibrante ciudad de Londres, conocida por su cultura y landmarks."
+            "description": "La vibrante ciudad de Londres, conocida por su cultura y landmarks.",
+            "detail": {
+            "heroImage": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781861714/citylondon_wksxxn.jpg",
+            "longDescription": "Londres es una ciudad cosmopolita donde la historia y la modernidad conviven a orillas del río Támesis. Sus monumentos, museos y barrios la convierten en uno de los destinos más visitados del mundo.",
+            "highlights": [   
+                { 
+                    "name": "Big Ben", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781860920/Bing_bang_b4uqkw.jpg" 
+                },
+                
+                { 
+                    "name": "Tower Bridge", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1781860949/tower_bridge_h4o5wk.avif" 
+                },
+                { 
+                    "name": "London Eye", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781861123/London-Eye_qh3nfh.jpg" 
+                },
+                { 
+                    "name": "Palacio de Buckingham", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781860989/buckingham-palace_ngifzt.jpg" 
+                }
+                
+            ]
+        }          
         },
 
         {
             "id": 10,
-            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1777378515/muralla2_wcgu06.jpg",
+            "poster": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1777378515/muralla2_wcgu06.jpg",
             "name": "Muralla China",
             "country": "China",
             "continent": "Asia",
-            "description": "La imponente muralla de China, símbolo de la historia milenaria del país."
+            "description": "La imponente muralla de China, símbolo de la historia milenaria del país.",
+            "detail": {
+            "heroImage": "https://res.cloudinary.com/dfhwxnhsl/image/upload/v1781864646/gran-muralla-china_w4afho.webp",
+            "longDescription": "China reúne siglos de historia, paisajes sorprendentes y ciudades llenas de cultura. Desde la imponente Muralla China hasta antiguas ciudades y modernas metrópolis, es un destino lleno de contrastes.",
+            "highlights": [   
+                { 
+                    "name": "Shanghái", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781863594/Shanghai_tt44vh.jpg" 
+                },
+                
+                { 
+                    "name": "Ciudad Prohibida", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781863595/Ciudad_Prohibida_y9ucyb.jpg" 
+                },
+                { 
+                    "name": "Xi'an", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781864857/Xian_urh39q.jpg" 
+                },
+                { 
+                    "name": "Pekín", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781865204/pekin-china_tdsb79.webp" 
+                },
+                { 
+                    "name": "Hangzhou", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781865540/Hangzhou1_acqchv.jpg" 
+                },
+                { 
+                    "name": "Chengdu", 
+                    "image": "https://res.cloudinary.com/dfhwxnhsl/image/upload/f_auto,q_auto,w_750/v1781865809/Chengdu-1_xxn03h.jpg" 
+                }
+                
+            ]
+        }          
         }
     ]
-}
+
+  }
